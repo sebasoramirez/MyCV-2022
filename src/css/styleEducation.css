@@ -93,7 +93,7 @@ a {
   color: var(--white-text);
   font-size: 2rem;
 }
-a:hover {
+nav a:hover {
   color: var(--main-yellow);
 }
 li {
@@ -123,6 +123,12 @@ main {
   margin-bottom: 10px;
 }
 h1 {
+  display: none;
+}
+.main-button {
+  display: none;
+}
+.main-button {
   display: none;
 }
 .main--info-container {

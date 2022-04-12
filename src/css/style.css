@@ -40,10 +40,14 @@ header {
 .profilePic {
   width: 120px;
   height: 120px;
+  margin-bottom: 15px;
+  background-image: url("../img/profile2.png");
+  background-size: cover; /* Asegurar que no se deforme y siempre este en el tamaño del contenedor */
+  background-position: center;
+  background-repeat: no-repeat; /* si fuera mas pequeña la imagen se replicaría la imagen  */
   align-self: center;
   border-radius: 100%;
   margin-top: 20px;
-  margin-bottom: 15px;
 }
 .principalTitle {
   font-size: 1.8rem;
@@ -87,7 +91,7 @@ a {
   color: var(--white-text);
   font-size: 2rem;
 }
-a:hover {
+nav a:hover {
   color: var(--main-yellow);
 }
 li {
@@ -118,6 +122,9 @@ main {
   margin-bottom: 10px;
 }
 h1 {
+  display: none;
+}
+.main-button {
   display: none;
 }
 .main--aboutMe-container {

@@ -1,0 +1,119 @@
+:root {
+  /* Colores */
+  --main-yellow: rgb(255, 193, 6);
+  --grey-text: rgb(107, 106, 110);
+  --white-text: rgb(220, 222, 224);
+  --soft-blue: #e7f5ff;
+  --warm-black: rgb(44, 44, 56);
+  --black: rgb(30, 30, 40);
+  --just-white: #ffffff;
+}
+
+.bg {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: var(--black);
+  position: relative;
+  margin: 20px;
+}
+
+.circle-right,
+.circle-left,
+.mask-right,
+.mask-left {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.circle-right,
+.circle-left {
+  background: var(--main-yellow);
+}
+
+.mask-right,
+.mask-left {
+  background: var(--black);
+}
+
+.circle-right,
+.mask-right {
+  clip: rect(0, 50px, 50px, 25px);
+}
+
+.circle-left,
+.mask-left {
+  clip: rect(0, 25px, 50px, 0);
+}
+
+.text {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--main-yellow);
+  border-radius: 100%;
+  background: var(--black);
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+.bg2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: var(--black);
+  position: relative;
+  margin: 20px;
+}
+
+.circle-right2,
+.circle-left2,
+.mask-right2,
+.mask-left2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.circle-right2,
+.circle-left2 {
+  background: var(--main-yellow);
+}
+
+.mask-right2,
+.mask-left2 {
+  background: var(--black);
+}
+
+.circle-right2,
+.mask-right2 {
+  clip: rect(0, 50px, 50px, 25px);
+}
+
+.circle-left2,
+.mask-left2 {
+  clip: rect(0, 25px, 50px, 0);
+}
+
+.text2 {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--main-yellow);
+  border-radius: 100%;
+  background: var(--black);
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
